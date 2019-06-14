@@ -1,0 +1,12 @@
+name: JoinGifts
+version: ${project.version}
+main: org.dragonet.joingifts.JoinGifts
+api-version: 1.13
+depend: ['ProfileAPI', 'MenuAPI']
+commands:
+  gifts:
+    aliases: ['gift']
+    description: "Get your gifts! "
+  gifts-reload:
+    aliases: ['giftsrel']
+    description: "Reload gift list! "

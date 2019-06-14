@@ -1,0 +1,11 @@
+title: "\u00a7eGifts to Claim"
+gifts:
+  test:
+    # display name
+    name: "&eFree Cash"
+    icon: DIAMOND
+    permission: false
+    lore:
+      - "&aClick to get! "
+    commands:
+      - "money give {player} 100"
